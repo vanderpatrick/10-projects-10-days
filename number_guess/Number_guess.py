@@ -5,7 +5,7 @@ def main():
     print("Welcome to the number guesser")
     while True:
         user_input = input("guess a number between 1 and 10: ")
-        computer_guess = randint(1, 2)
+        computer_guess = randint(1, 10)
         try:
             option = int(user_input)
         except ValueError:
